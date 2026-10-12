@@ -1,0 +1,64 @@
+[
+  {
+    "name": "pool edge",
+    "position": {
+      "x": 22.280542352770066,
+      "y": 0.9099999999999981,
+      "z": -30.61746841703792
+    },
+    "maxForce": 980.9996963600152,
+    "maxSpeed": 1.4695132033788165,
+    "maxDisplacementPerStep": 0.008330739159412896,
+    "states": [
+      "Swimming · strokes push water backward",
+      "Swimming up toward reachable edge",
+      "Hands on edge · pulling out",
+      "Ballistic flight",
+      "Heel-to-toe walking"
+    ]
+  },
+  {
+    "name": "submerged stairs",
+    "position": {
+      "x": 25.01254355544376,
+      "y": 0.9099999999999981,
+      "z": -30.723597911703518
+    },
+    "maxForce": 1564.4837855346632,
+    "maxSpeed": 1.4751952298824533,
+    "maxDisplacementPerStep": 0.008148676257205438,
+    "states": [
+      "Swimming · strokes push water backward",
+      "Hands on edge · pulling out",
+      "Wading · feet use submerged steps",
+      "Stepping onto detected surface",
+      "Ballistic flight",
+      "Heel-to-toe walking",
+      "Force / drag limit"
+    ]
+  },
+  {
+    "name": "dry stairs",
+    "position": {
+      "x": -25,
+      "y": 2.261701023517885,
+      "z": 8.496507428618232
+    },
+    "maxForce": 1564.483961850764,
+    "maxSpeed": 1.3996541834737197,
+    "maxDisplacementPerStep": 0.005831892431141128,
+    "states": [
+      "Ballistic flight",
+      "Force / drag limit",
+      "Stepping onto detected surface",
+      "Heel-to-toe walking"
+    ]
+  },
+  {
+    "surfaceRange": [
+      -0.750011944945147,
+      -0.5304422662007742
+    ],
+    "parcels": 1196
+  }
+]

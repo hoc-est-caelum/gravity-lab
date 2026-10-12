@@ -1,0 +1,70 @@
+{
+  "errors": [],
+  "waterfall": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": true,
+        "flow": 12,
+        "power": 1393.2965969796867,
+        "status": "Running",
+        "emitted": 36.00000000000024,
+        "returned": 21.90000000000004,
+        "work": 4179.889790939085
+      },
+      {
+        "id": "rain",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      }
+    ],
+    "parcels": 141,
+    "airborneMass": 14.099999999999966,
+    "iceMass": 0,
+    "tankMass": 600,
+    "vaporMass": 0,
+    "impacts": 219,
+    "bodyImpacts": 0,
+    "totalMass": 149830.89999999918,
+    "initialMass": 149830.9
+  },
+  "rain": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 48.80000000000042,
+        "returned": 48.80000000000042,
+        "work": 5666.07282771744
+      },
+      {
+        "id": "rain",
+        "on": true,
+        "flow": 0.9,
+        "power": 335.34992631729517,
+        "status": "Running",
+        "emitted": 4.5449999999999156,
+        "returned": 1.2886363636363738,
+        "work": 1693.5171279023245
+      }
+    ],
+    "parcels": 796,
+    "airborneMass": 3.2563636363636044,
+    "iceMass": 0,
+    "tankMass": 596.7436363636393,
+    "vaporMass": 0,
+    "impacts": 803,
+    "bodyImpacts": 0,
+    "totalMass": 149830.90000000002,
+    "initialMass": 149830.9
+  },
+  "offRetainsMovingWater": 137
+}

@@ -1,0 +1,8 @@
+const {chromium}=require('C:/Users/irevi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),assert=require('assert/strict'),fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..');
+(async()=>{const browser=await chromium.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true,args:['--enable-webgl','--use-angle=swiftshader','--enable-unsafe-swiftshader']});try{let results=[];
+for(let fps of [15,30,60]){const p=await browser.newPage();await p.addInitScript(()=>{window.requestAnimationFrame=f=>{window.__next=f;return 1;};});await p.goto('file:///'+root.replaceAll('\\','/')+'/gravity-lab.html');await p.locator('#begin').click();let state=await p.evaluate(fps=>{let now=performance.now();__next(now);const start=FieldLab.state.time;document.dispatchEvent(new KeyboardEvent('keydown',{code:'KeyD'}));document.dispatchEvent(new KeyboardEvent('keydown',{code:'ShiftLeft'}));for(let i=0;i<fps*4;i++){now+=1000/fps;__next(now);}let state=FieldLab.state;state.time-=start;return state;},fps);assert(Math.abs(state.time-4)<.08,'Real-time clock at '+fps+' fps');results.push({fps,time:state.time,position:state.position,speed:Math.hypot(state.velocity.x,state.velocity.z),render:state.render});await p.close();}
+for(let a of results)assert(Math.abs(a.position.x-results[0].position.x)<.12,'Travel must not depend on render rate');fs.writeFileSync(path.join(root,'docs/timing-results.json'),JSON.stringify(results,null,2));console.log(JSON.stringify(results));
+}finally{await browser.close();}})();
+
+

@@ -1,0 +1,211 @@
+{
+  "trials": [
+    {
+      "g": 0.165,
+      "run": false,
+      "pressure": 1,
+      "speed": 1.4012921047156288,
+      "cadence": 81.52137406285885,
+      "measuredContactsPerMin": 78.13021702838064,
+      "airFraction": 0.5342237061769616,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.015421798718793402,
+      "maxHipStep": 0.006982010862966681,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "lope flight"
+      ]
+    },
+    {
+      "g": 0.165,
+      "run": true,
+      "pressure": 1,
+      "speed": 3.0115891406500044,
+      "cadence": 55.237839015175716,
+      "measuredContactsPerMin": 54.090150250417366,
+      "airFraction": 0.7562604340567612,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.015035477714324895,
+      "maxHipStep": 0.010079616340160524,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 0.3333333333333333,
+      "run": false,
+      "pressure": 1,
+      "speed": 1.3999999105872118,
+      "cadence": 97.28252395143619,
+      "measuredContactsPerMin": 0,
+      "airFraction": 0,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.028305758341534842,
+      "maxHipStep": 0.027772620872977494,
+      "states": [
+        "stand",
+        "walk"
+      ]
+    },
+    {
+      "g": 0.3333333333333333,
+      "run": true,
+      "pressure": 1,
+      "speed": 3.006333312484337,
+      "cadence": 91.53980166328282,
+      "measuredContactsPerMin": 90.15025041736227,
+      "airFraction": 0.6243739565943238,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.01718674533866731,
+      "maxHipStep": 0.01023600686710402,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 1,
+      "run": false,
+      "pressure": 1,
+      "speed": 1.3999994286318702,
+      "cadence": 115.97761899383855,
+      "measuredContactsPerMin": 0,
+      "airFraction": 0,
+      "maxPlantedFootDisplacement": 2.7755575615628914e-17,
+      "maxLocalHandStep": 0.022753674876821072,
+      "maxHipStep": 0.02187211477380746,
+      "states": [
+        "stand",
+        "walk"
+      ]
+    },
+    {
+      "g": 1,
+      "run": true,
+      "pressure": 1,
+      "speed": 3.00240157879099,
+      "cadence": 166.76303027920173,
+      "measuredContactsPerMin": 168.28046744574291,
+      "airFraction": 0.34557595993322204,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.028911766925144848,
+      "maxHipStep": 0.007321199141735235,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 1.3,
+      "run": false,
+      "pressure": 1,
+      "speed": 1.3999990546637966,
+      "cadence": 120.9497821336761,
+      "measuredContactsPerMin": 0,
+      "airFraction": 0,
+      "maxPlantedFootDisplacement": 2.7755575615628914e-17,
+      "maxLocalHandStep": 0.020546019331142782,
+      "maxHipStep": 0.01951744940936828,
+      "states": [
+        "stand",
+        "walk"
+      ]
+    },
+    {
+      "g": 1.3,
+      "run": true,
+      "pressure": 1,
+      "speed": 3.0019441751927642,
+      "cadence": 185.83603780657123,
+      "measuredContactsPerMin": 192.3205342237062,
+      "airFraction": 0.32053422370617696,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.032322139391252204,
+      "maxHipStep": 0.007773113138503818,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 1.5,
+      "run": false,
+      "pressure": 1,
+      "speed": 1.3999987512455352,
+      "cadence": 123.75100287875685,
+      "measuredContactsPerMin": 0,
+      "airFraction": 0,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.01890485729022422,
+      "maxHipStep": 0.017778406223310395,
+      "states": [
+        "stand",
+        "walk"
+      ]
+    },
+    {
+      "g": 1.5,
+      "run": true,
+      "pressure": 1,
+      "speed": 3.0016839360394822,
+      "cadence": 196.12407558275027,
+      "measuredContactsPerMin": 198.33055091819702,
+      "airFraction": 0.27545909849749584,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.03410572264384856,
+      "maxHipStep": 0.008171368195283968,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 1,
+      "run": true,
+      "pressure": 100,
+      "speed": 2.17259870784317,
+      "cadence": 166.8312232156728,
+      "measuredContactsPerMin": 168.28046744574291,
+      "airFraction": 0.37061769616026713,
+      "maxPlantedFootDisplacement": 0,
+      "maxLocalHandStep": 0.029281643065531077,
+      "maxHipStep": 0.008298227163447192,
+      "states": [
+        "stand",
+        "walk",
+        "run stance",
+        "run flight"
+      ]
+    },
+    {
+      "g": 10,
+      "run": true,
+      "pressure": 1,
+      "speed": 0,
+      "cadence": 0,
+      "measuredContactsPerMin": 0,
+      "airFraction": 0,
+      "maxPlantedFootDisplacement": 0.0018846886028818233,
+      "maxLocalHandStep": 0.0029167416269453993,
+      "maxHipStep": 0,
+      "states": [
+        "supported crawl",
+        "prone crawl"
+      ]
+    }
+  ],
+  "zeroG": "Relaxed non-cycling float; no input thrust"
+}

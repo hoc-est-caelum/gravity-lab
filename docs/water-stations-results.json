@@ -1,0 +1,230 @@
+{
+  "zeroG": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      },
+      {
+        "id": "rain",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0.08999999999999998,
+        "returned": 0,
+        "work": 2.6134615384615376
+      }
+    ],
+    "parcels": 22,
+    "airborneMass": 0.07914171315481,
+    "iceMass": 0.0591786853657769,
+    "tankMass": 599.683102519467,
+    "vaporMass": 0.23775576737831716,
+    "impacts": 0,
+    "bodyImpacts": 0,
+    "totalMass": 149830.89999999997,
+    "initialMass": 149830.9,
+    "thermalResidual": -0.0000019073486328125
+  },
+  "denseAir": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      },
+      {
+        "id": "rain",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0.08999999999999998,
+        "returned": 0,
+        "work": 2.6134615384615376
+      }
+    ],
+    "parcels": 22,
+    "airborneMass": 0.08999999999999998,
+    "iceMass": 0,
+    "tankMass": 599.9100000000001,
+    "vaporMass": 0,
+    "impacts": 0,
+    "bodyImpacts": 0,
+    "totalMass": 149830.9,
+    "initialMass": 149830.9,
+    "thermalResidual": 0
+  },
+  "lowPressure": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      },
+      {
+        "id": "rain",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0.08999999999999998,
+        "returned": 0,
+        "work": 33.57226393315846
+      }
+    ],
+    "parcels": 22,
+    "airborneMass": 0.07545132600013135,
+    "iceMass": 0.07545132600013135,
+    "tankMass": 599.1627086688835,
+    "vaporMass": 0.7618400051163604,
+    "impacts": 0,
+    "bodyImpacts": 0,
+    "totalMass": 149830.9,
+    "initialMass": 149830.9,
+    "thermalResidual": 0.0000019073486328125
+  },
+  "pumps": [
+    {
+      "g": 0,
+      "id": "waterfall",
+      "flow": 12,
+      "power": 54.86769230769231
+    },
+    {
+      "g": 0,
+      "id": "rain",
+      "flow": 0.9,
+      "power": 26.134615384615383
+    },
+    {
+      "g": 1,
+      "id": "waterfall",
+      "flow": 12,
+      "power": 1209.6505338682557
+    },
+    {
+      "g": 1,
+      "id": "rain",
+      "flow": 0.9,
+      "power": 335.34992631729517
+    },
+    {
+      "g": 3,
+      "id": "waterfall",
+      "flow": 6.819695003542949,
+      "power": 2000
+    },
+    {
+      "g": 3,
+      "id": "rain",
+      "flow": 0.42462465757254647,
+      "power": 450
+    },
+    {
+      "g": 10,
+      "id": "waterfall",
+      "flow": 2.0684774135737496,
+      "power": 2000.0000000000002
+    },
+    {
+      "g": 10,
+      "id": "rain",
+      "flow": 0.12987712632478834,
+      "power": 450
+    }
+  ],
+  "capacity": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      },
+      {
+        "id": "rain",
+        "on": true,
+        "flow": 0,
+        "power": 0,
+        "status": "Suspended-water capacity · pump waiting",
+        "emitted": 0.10227272727272725,
+        "returned": 0,
+        "work": 2.969842657342656
+      }
+    ],
+    "parcels": 25,
+    "airborneMass": 0.10227272727272725,
+    "iceMass": 0,
+    "tankMass": 599.8977272727274,
+    "vaporMass": 0,
+    "impacts": 0,
+    "bodyImpacts": 0,
+    "totalMass": 149830.9,
+    "initialMass": 149830.9,
+    "thermalResidual": 0
+  },
+  "bodyImpact": {
+    "velocity": {
+      "x": -0.00002172738653625311,
+      "y": -0.0004100075955990655,
+      "z": -0.000006304622755648751
+    },
+    "impacts": 2
+  },
+  "waterfall": {
+    "stations": [
+      {
+        "id": "waterfall",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 36.00000000000024,
+        "returned": 36.00000000000024,
+        "work": 3726.939952481394
+      },
+      {
+        "id": "rain",
+        "on": false,
+        "flow": 0,
+        "power": 0,
+        "status": "Off",
+        "emitted": 0,
+        "returned": 0,
+        "work": 0
+      }
+    ],
+    "parcels": 0,
+    "airborneMass": 0,
+    "iceMass": 0,
+    "tankMass": 600,
+    "vaporMass": 0,
+    "impacts": 360,
+    "bodyImpacts": 0,
+    "totalMass": 149830.9,
+    "initialMass": 149830.9,
+    "thermalResidual": 0
+  }
+}

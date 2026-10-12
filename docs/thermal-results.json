@@ -1,0 +1,57 @@
+{
+  "reference": {
+    "vaporPressure20C": 2339.1937366227544,
+    "icePressureMinus20C": 103.23902900209004,
+    "meltingAt100atm": -0.7586048655310833
+  },
+  "trials": [
+    {
+      "atm": 1,
+      "seconds": 3600,
+      "temperatureC": 20,
+      "iceFraction": 0,
+      "evaporatedKg": 0,
+      "rate": 0,
+      "energyResidual": 0
+    },
+    {
+      "atm": 0.01,
+      "seconds": 3600,
+      "temperatureC": 7.170327055686812,
+      "iceFraction": 0,
+      "evaporatedKg": 3443.3676707314808,
+      "rate": 0.004916075434667596,
+      "energyResidual": -0.0000019073486328125
+    },
+    {
+      "atm": 0.001,
+      "seconds": 3600,
+      "temperatureC": 0.009999997439535946,
+      "iceFraction": 0.7364444578935447,
+      "evaporatedKg": 19123.08478432656,
+      "rate": 4.587215027971637,
+      "energyResidual": 0.0040111541748046875
+    },
+    {
+      "atm": 0,
+      "seconds": 3600,
+      "temperatureC": 0.009999997439535946,
+      "iceFraction": 0.9207970779832495,
+      "evaporatedKg": 22201.535080030597,
+      "rate": 5.49799369616153,
+      "energyResidual": -0.00110626220703125
+    }
+  ],
+  "iceSublimation": {
+    "massLost": 161.91062450275058,
+    "temperature": 263.91644818089554
+  },
+  "frozenContact": {
+    "position": {
+      "x": 21.999989234059473,
+      "y": 0.41477867903264,
+      "z": -43.00001076594083
+    },
+    "surface": "pool-ice"
+  }
+}

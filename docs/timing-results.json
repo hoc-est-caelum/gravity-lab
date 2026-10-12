@@ -1,0 +1,65 @@
+[
+  {
+    "fps": 15,
+    "time": 4.0000000000000915,
+    "position": {
+      "x": 10.752202713421408,
+      "y": 0.9100000000000001,
+      "z": 17
+    },
+    "speed": 3.001483582055,
+    "render": {
+      "calls": 117,
+      "triangles": 27084,
+      "pixelRatio": 0.75,
+      "waterStride": 4,
+      "detailCounts": {
+        "near": 2,
+        "medium": 3,
+        "far": 8
+      }
+    }
+  },
+  {
+    "fps": 30,
+    "time": 4.0000000000000915,
+    "position": {
+      "x": 10.752202713421408,
+      "y": 0.9100000000000001,
+      "z": 17
+    },
+    "speed": 3.001483582055,
+    "render": {
+      "calls": 117,
+      "triangles": 27084,
+      "pixelRatio": 0.85,
+      "waterStride": 4,
+      "detailCounts": {
+        "near": 2,
+        "medium": 3,
+        "far": 8
+      }
+    }
+  },
+  {
+    "fps": 60,
+    "time": 4.000000000000091,
+    "position": {
+      "x": 10.752202713421408,
+      "y": 0.9100000000000001,
+      "z": 17
+    },
+    "speed": 3.001483582055,
+    "render": {
+      "calls": 117,
+      "triangles": 27084,
+      "pixelRatio": 0.85,
+      "waterStride": 4,
+      "detailCounts": {
+        "near": 2,
+        "medium": 3,
+        "far": 8
+      }
+    }
+  }
+]

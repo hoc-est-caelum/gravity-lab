@@ -1,0 +1,96 @@
+{
+  "errors": [],
+  "push": {
+    "normal": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "impulse": {
+      "x": 0,
+      "y": 105.81113261390257,
+      "z": -76.18401548200985
+    },
+    "mu": 0.72,
+    "solid": "floor"
+  },
+  "lockedSpeed": 3.0030126225671947,
+  "jump": {
+    "x": 0,
+    "y": 1.9720020852980904,
+    "z": -1.798542125891676
+  },
+  "flight": {
+    "x": -12,
+    "y": 8.576285662930765,
+    "z": 20.690663811033485
+  },
+  "crawl": {
+    "x": 0,
+    "y": 0.3527184003392664,
+    "z": 16.049306020830617
+  },
+  "boiling": {
+    "initialMass": 149230.9,
+    "mass": 149188.45276669838,
+    "energy": 12367988332.899036,
+    "initialEnergy": 12475703240,
+    "temperature": 292.98296179159206,
+    "liquidFraction": 1,
+    "iceFraction": 0,
+    "vaporMass": 42.44723330164199,
+    "exhaustEnergy": 107716116.71653162,
+    "heatInput": 1209.6155831095234,
+    "rate": 15.69874430514094,
+    "mode": "boiling / cooling",
+    "elapsed": 43.766666666666744,
+    "coefficient": 0.1,
+    "conductance": 300,
+    "pressure": 506.625,
+    "melting": 273.1599999974395,
+    "area": 80,
+    "saturationPressure": 2315.0970662858413
+  },
+  "swim": {
+    "position": {
+      "x": 22.014495475259146,
+      "y": -1.526876320709246,
+      "z": -39.839129422188236
+    },
+    "submerged": 1,
+    "water": {
+      "active": true,
+      "steps": 160,
+      "count": 1196,
+      "rho": 998.2407612274723,
+      "maxSpeed": 0.8743101457094854,
+      "splashes": {
+        "events": 13,
+        "droplets": 0,
+        "emitted": 52,
+        "impacts": 1
+      },
+      "thermal": {
+        "initialMass": 149230.9,
+        "mass": 149222.11320398608,
+        "energy": 12453404972.901958,
+        "initialEnergy": 12475703240,
+        "temperature": 293.1154288655429,
+        "liquidFraction": 1,
+        "iceFraction": 0,
+        "vaporMass": 8.786796013932287,
+        "exhaustEnergy": 22298871.548786614,
+        "heatInput": 604.4507549698833,
+        "rate": 0,
+        "mode": "liquid",
+        "elapsed": 24.100000000000357,
+        "coefficient": 0.1,
+        "conductance": 300,
+        "pressure": 101325,
+        "melting": 273.15251907994104,
+        "area": 80,
+        "saturationPressure": 2334.1886228588696
+      }
+    }
+  }
+}
